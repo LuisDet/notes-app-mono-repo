@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwODg0YmVmOWRhMTZkMDE5YjA4NmQ5MCIsInVzZXJuYW1lIjoiR3VlcGFyZG8iLCJpYXQiOjE2MTk1NTM3ODJ9.kqfyzYYmYhK6QVxvPZHPNcJ4WeUVkyEBcT0n8BBzGiw
+
+{
+  "title": "Creating a new note using middleware instead of not",
+  "content": "Event number 2",
+  "important": true
+}
